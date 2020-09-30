@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TranslitJS</title>
+    <script src="src/javascripts/Latins_to_Cyrillic.js"></script>
+    <script src="src/javascripts/TranslitJS.js"></script>
+</head>
+<body>
+    <script>
+        const latin = 'Ghbdtn'; // Привет
+        const xTranslitJS = new TranslitJS(latin);
+
+        console.log(xTranslitJS.latin_to_cyrillic()); // Our answer
+    </script>
+</body>
+</html>
