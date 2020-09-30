@@ -13,5 +13,7 @@ Example use
 const latin = 'Ghbdtn'; // Привет
 const xTranslitJS = new TranslitJS(latin);
 
-console.log(xTranslitJS.latin_to_cyrillic()); // Our answer
+const otvet = xTranslitJS.latin_to_cyrillic(); // Our answer
+
+console.log(otvet); // Привет
 ```
